@@ -1,0 +1,3029 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: GitHub.Unity.45:GitHub.Unity:GitLogCache
+  cacheType: 3
+  lastUpdatedAtString: 2019-01-25T01:40:44.190+01:00
+  initializedAtString: 2019-01-25T01:40:44.190+01:00
+  log:
+  - commitID: 8a242458523f78d2d91c533cc3ef1dd601396226
+    mergeA: 
+    mergeB: 
+    authorName: AlexiGhost
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: AlexiGhost
+    summary: Switching back to C# for Travis CI
+    description: Switching back to C# for Travis CI
+    timeString: 2019-01-25T01:13:37.000+01:00
+    commitTimeString: 2019-01-25T01:13:37.000+01:00
+    changes:
+    - path: .travis.yml
+      fullPath: E:\Projects\Unity\lp_gl_break-it\.travis.yml
+      projectPath: .travis.yml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Scripts\Unity-2018.3.2.pkg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\Unity-2018.3.2.pkg
+      projectPath: Scripts\Unity-2018.3.2.pkg
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Scripts\UnitySetup-Mac-Support-for-Editor-2018.3.2.pkg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\UnitySetup-Mac-Support-for-Editor-2018.3.2.pkg
+      projectPath: Scripts\UnitySetup-Mac-Support-for-Editor-2018.3.2.pkg
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Scripts\UnitySetup-Windows-Support-for-Editor-2018.3.2.pkg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\UnitySetup-Windows-Support-for-Editor-2018.3.2.pkg
+      projectPath: Scripts\UnitySetup-Windows-Support-for-Editor-2018.3.2.pkg
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Scripts\build.sh
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\build.sh
+      projectPath: Scripts\build.sh
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Scripts\install.sh
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\install.sh
+      projectPath: Scripts\install.sh
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: travis_scripts\run-tests.sh
+      fullPath: E:\Projects\Unity\lp_gl_break-it\travis_scripts\run-tests.sh
+      projectPath: travis_scripts\run-tests.sh
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: d3b078cade5b082f640968571febfbbd2b901600
+    mergeA: 
+    mergeB: 
+    authorName: AlexiGhost
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: AlexiGhost
+    summary: 'travis CI fix tentative #5'
+    description: 'travis CI fix tentative #5'
+    timeString: 2019-01-25T00:57:38.000+01:00
+    commitTimeString: 2019-01-25T00:57:38.000+01:00
+    changes:
+    - path: Scripts\Unity-2018.3.2.pkg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\Unity-2018.3.2.pkg
+      projectPath: Scripts\Unity-2018.3.2.pkg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Scripts\UnitySetup-Mac-Support-for-Editor-2018.3.2.pkg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\UnitySetup-Mac-Support-for-Editor-2018.3.2.pkg
+      projectPath: Scripts\UnitySetup-Mac-Support-for-Editor-2018.3.2.pkg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Scripts\UnitySetup-Windows-Support-for-Editor-2018.3.2.pkg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\UnitySetup-Windows-Support-for-Editor-2018.3.2.pkg
+      projectPath: Scripts\UnitySetup-Windows-Support-for-Editor-2018.3.2.pkg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Scripts\install.sh
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\install.sh
+      projectPath: Scripts\install.sh
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 6fa18a92361f671e824547269dadea06a6d8bf4d
+    mergeA: 
+    mergeB: 
+    authorName: AlexiGhost
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: AlexiGhost
+    summary: 'travis CI fix tentative #4'
+    description: 'travis CI fix tentative #4'
+    timeString: 2019-01-25T00:53:31.000+01:00
+    commitTimeString: 2019-01-25T00:53:31.000+01:00
+    changes:
+    - path: Scripts\install.sh
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\install.sh
+      projectPath: Scripts\install.sh
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: c93d22c57d7c4814be429f358298e3a38603ad38
+    mergeA: 
+    mergeB: 
+    authorName: AlexiGhost
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: AlexiGhost
+    summary: 'travis CI fix tentative #3'
+    description: 'travis CI fix tentative #3'
+    timeString: 2019-01-25T00:50:40.000+01:00
+    commitTimeString: 2019-01-25T00:50:40.000+01:00
+    changes:
+    - path: .travis.yml
+      fullPath: E:\Projects\Unity\lp_gl_break-it\.travis.yml
+      projectPath: .travis.yml
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: d5992ae4717d2eac1ca04ca6da82f158315c566a
+    mergeA: 
+    mergeB: 
+    authorName: AlexiGhost
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: AlexiGhost
+    summary: 'install.sh fix tentative #2'
+    description: 'install.sh fix tentative #2'
+    timeString: 2019-01-25T00:39:59.000+01:00
+    commitTimeString: 2019-01-25T00:39:59.000+01:00
+    changes:
+    - path: Scripts\install.sh
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\install.sh
+      projectPath: Scripts\install.sh
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: ba97f9e10804b43623af6af365b8724d81c3d30a
+    mergeA: 
+    mergeB: 
+    authorName: AlexiGhost
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: AlexiGhost
+    summary: 'install.sh fix tentative #1'
+    description: 'install.sh fix tentative #1'
+    timeString: 2019-01-25T00:18:57.000+01:00
+    commitTimeString: 2019-01-25T00:18:57.000+01:00
+    changes:
+    - path: Scripts\install.sh
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\install.sh
+      projectPath: Scripts\install.sh
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 0fcbcedad7c0a8425ea8f968776ebdaab9cc4bfe
+    mergeA: e3daf42aca4290e25aa1d8ca8cbf73d47def6907
+    mergeB: 532be5bd3400a035401f8f9e65151b4308537f68
+    authorName: AlexiGhost
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: AlexiGhost
+    summary: Merge branch 'master' of https://github.com/AlexiGhost/lp_gl_break-it
+    description: Merge branch 'master' of https://github.com/AlexiGhost/lp_gl_break-it
+    timeString: 2019-01-24T23:47:25.000+01:00
+    commitTimeString: 2019-01-24T23:47:25.000+01:00
+    changes: []
+  - commitID: e3daf42aca4290e25aa1d8ca8cbf73d47def6907
+    mergeA: 
+    mergeB: 
+    authorName: AlexiGhost
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: AlexiGhost
+    summary: Unity installation for Travis CI (test)
+    description: Unity installation for Travis CI (test)
+    timeString: 2019-01-24T23:46:51.000+01:00
+    commitTimeString: 2019-01-24T23:46:51.000+01:00
+    changes:
+    - path: .travis.yml
+      fullPath: E:\Projects\Unity\lp_gl_break-it\.travis.yml
+      projectPath: .travis.yml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Scripts\build.sh
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\build.sh
+      projectPath: Scripts\build.sh
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Scripts\install.sh
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Scripts\install.sh
+      projectPath: Scripts\install.sh
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 532be5bd3400a035401f8f9e65151b4308537f68
+    mergeA: 
+    mergeB: 
+    authorName: Alexi Courieux
+    authorEmail: courieuxa@gmail.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update README.md
+    description: Update README.md
+    timeString: 2019-01-24T20:58:29.000+01:00
+    commitTimeString: 2019-01-24T20:58:29.000+01:00
+    changes:
+    - path: README.md
+      fullPath: E:\Projects\Unity\lp_gl_break-it\README.md
+      projectPath: README.md
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 891aa1a9dfa668712052885d65f3e1643fdceb4b
+    mergeA: 
+    mergeB: 
+    authorName: AlexiGhost
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: AlexiGhost
+    summary: Documentation folder name renamed
+    description: Documentation folder name renamed
+    timeString: 2019-01-24T20:52:20.000+01:00
+    commitTimeString: 2019-01-24T20:52:20.000+01:00
+    changes:
+    - path: Documentation\Diagrams\Diagramme_de_blocs.pdf
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Diagrams\Diagramme_de_blocs.pdf
+      projectPath: Documentation\Diagrams\Diagramme_de_blocs.pdf
+      originalPath: Documentation\Diagrammes\Diagramme_de_blocs.pdf
+      status: 6
+      staged: 0
+    - path: Documentation\Diagrams\Diagramme_de_cas_d_utilisation.pdf
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Diagrams\Diagramme_de_cas_d_utilisation.pdf
+      projectPath: Documentation\Diagrams\Diagramme_de_cas_d_utilisation.pdf
+      originalPath: Documentation\Diagrammes\Diagramme_de_cas_d_utilisation.pdf
+      status: 6
+      staged: 0
+    - path: Documentation\Diagrams\Diagramme_de_sequence.pdf
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Diagrams\Diagramme_de_sequence.pdf
+      projectPath: Documentation\Diagrams\Diagramme_de_sequence.pdf
+      originalPath: Documentation\Diagrammes\Diagramme_de_sequence.pdf
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\Game.PNG
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\Game.PNG
+      projectPath: Documentation\Mockups\Game.PNG
+      originalPath: Documentation\Maquettes\Game.PNG
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\Menu_Pause.PNG
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\Menu_Pause.PNG
+      projectPath: Documentation\Mockups\Menu_Pause.PNG
+      originalPath: Documentation\Maquettes\Menu_Pause.PNG
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\Menu_home.PNG
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\Menu_home.PNG
+      projectPath: Documentation\Mockups\Menu_home.PNG
+      originalPath: Documentation\Maquettes\Menu_home.PNG
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\Menu_level.PNG
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\Menu_level.PNG
+      projectPath: Documentation\Mockups\Menu_level.PNG
+      originalPath: Documentation\Maquettes\Menu_level.PNG
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\Menu_options.PNG
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\Menu_options.PNG
+      projectPath: Documentation\Mockups\Menu_options.PNG
+      originalPath: Documentation\Maquettes\Menu_options.PNG
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\data\document.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\data\document.js
+      projectPath: Documentation\Mockups\data\document.js
+      originalPath: Documentation\Maquettes\data\document.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\data\styles.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\data\styles.css
+      projectPath: Documentation\Mockups\data\styles.css
+      originalPath: Documentation\Maquettes\data\styles.css
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\files\game\data.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\files\game\data.js
+      projectPath: Documentation\Mockups\files\game\data.js
+      originalPath: Documentation\Maquettes\files\game\data.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\files\game\styles.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\files\game\styles.css
+      projectPath: Documentation\Mockups\files\game\styles.css
+      originalPath: Documentation\Maquettes\files\game\styles.css
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\files\menu_home\data.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\files\menu_home\data.js
+      projectPath: Documentation\Mockups\files\menu_home\data.js
+      originalPath: Documentation\Maquettes\files\menu_home\data.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\files\menu_home\styles.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\files\menu_home\styles.css
+      projectPath: Documentation\Mockups\files\menu_home\styles.css
+      originalPath: Documentation\Maquettes\files\menu_home\styles.css
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\files\menu_level\data.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\files\menu_level\data.js
+      projectPath: Documentation\Mockups\files\menu_level\data.js
+      originalPath: Documentation\Maquettes\files\menu_level\data.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\files\menu_level\styles.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\files\menu_level\styles.css
+      projectPath: Documentation\Mockups\files\menu_level\styles.css
+      originalPath: Documentation\Maquettes\files\menu_level\styles.css
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\files\menu_options\data.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\files\menu_options\data.js
+      projectPath: Documentation\Mockups\files\menu_options\data.js
+      originalPath: Documentation\Maquettes\files\menu_options\data.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\files\menu_options\styles.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\files\menu_options\styles.css
+      projectPath: Documentation\Mockups\files\menu_options\styles.css
+      originalPath: Documentation\Maquettes\files\menu_options\styles.css
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\game.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\game.html
+      projectPath: Documentation\Mockups\game.html
+      originalPath: Documentation\Maquettes\game.html
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\images\game\u1.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\images\game\u1.png
+      projectPath: Documentation\Mockups\images\game\u1.png
+      originalPath: Documentation\Maquettes\images\game\u1.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\images\menu_options\u50.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\images\menu_options\u50.png
+      projectPath: Documentation\Mockups\images\menu_options\u50.png
+      originalPath: Documentation\Maquettes\images\menu_options\u50.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\menu_home.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\menu_home.html
+      projectPath: Documentation\Mockups\menu_home.html
+      originalPath: Documentation\Maquettes\menu_home.html
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\menu_level.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\menu_level.html
+      projectPath: Documentation\Mockups\menu_level.html
+      originalPath: Documentation\Maquettes\menu_level.html
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\menu_options.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\menu_options.html
+      projectPath: Documentation\Mockups\menu_options.html
+      originalPath: Documentation\Maquettes\menu_options.html
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\debug\styles\debug.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\debug\styles\debug.css
+      projectPath: Documentation\Mockups\plugins\debug\styles\debug.css
+      originalPath: Documentation\Maquettes\plugins\debug\styles\debug.css
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\debug\styles\images\reset.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\debug\styles\images\reset.svg
+      projectPath: Documentation\Mockups\plugins\debug\styles\images\reset.svg
+      originalPath: Documentation\Maquettes\plugins\debug\styles\images\reset.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\debug\styles\images\reset_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\debug\styles\images\reset_hover.svg
+      projectPath: Documentation\Mockups\plugins\debug\styles\images\reset_hover.svg
+      originalPath: Documentation\Maquettes\plugins\debug\styles\images\reset_hover.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\debug\styles\images\variables_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\debug\styles\images\variables_hover.png
+      projectPath: Documentation\Mockups\plugins\debug\styles\images\variables_hover.png
+      originalPath: Documentation\Maquettes\plugins\debug\styles\images\variables_hover.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\debug\styles\images\variables_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\debug\styles\images\variables_hover.svg
+      projectPath: Documentation\Mockups\plugins\debug\styles\images\variables_hover.svg
+      originalPath: Documentation\Maquettes\plugins\debug\styles\images\variables_hover.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\debug\styles\images\variables_off.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\debug\styles\images\variables_off.png
+      projectPath: Documentation\Mockups\plugins\debug\styles\images\variables_off.png
+      originalPath: Documentation\Maquettes\plugins\debug\styles\images\variables_off.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\debug\styles\images\variables_off.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\debug\styles\images\variables_off.svg
+      projectPath: Documentation\Mockups\plugins\debug\styles\images\variables_off.svg
+      originalPath: Documentation\Maquettes\plugins\debug\styles\images\variables_off.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\debug\styles\images\variables_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\debug\styles\images\variables_on.png
+      projectPath: Documentation\Mockups\plugins\debug\styles\images\variables_on.png
+      originalPath: Documentation\Maquettes\plugins\debug\styles\images\variables_on.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\debug\styles\images\variables_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\debug\styles\images\variables_on.svg
+      projectPath: Documentation\Mockups\plugins\debug\styles\images\variables_on.svg
+      originalPath: Documentation\Maquettes\plugins\debug\styles\images\variables_on.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\back.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\back.png
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\back.png
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\back.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\back.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\back.svg
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\back.svg
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\back.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\back_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\back_hover.png
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\back_hover.png
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\back_hover.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\back_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\back_hover.svg
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\back_hover.svg
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\back_hover.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\footnotes.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\footnotes.png
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\footnotes.png
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\footnotes.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\footnotes.svg
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\footnotes.svg
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\footnotes_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\footnotes_hover.png
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\footnotes_hover.png
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_hover.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\footnotes_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\footnotes_hover.svg
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\footnotes_hover.svg
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_hover.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\footnotes_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\footnotes_on.png
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\footnotes_on.png
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_on.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\footnotes_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\footnotes_on.svg
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\footnotes_on.svg
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_on.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\forward.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\forward.png
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\forward.png
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\forward.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\forward.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\forward.svg
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\forward.svg
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\forward.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\forward_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\forward_hover.png
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\forward_hover.png
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\forward_hover.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\forward_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\forward_hover.svg
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\forward_hover.svg
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\forward_hover.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\notes_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\notes_hover.png
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\notes_hover.png
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\notes_hover.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\notes_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\notes_hover.svg
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\notes_hover.svg
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\notes_hover.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\notes_off.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\notes_off.png
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\notes_off.png
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\notes_off.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\notes_off.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\notes_off.svg
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\notes_off.svg
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\notes_off.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\notes_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\notes_on.png
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\notes_on.png
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\notes_on.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\images\notes_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\images\notes_on.svg
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\images\notes_on.svg
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\images\notes_on.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\page_notes\styles\page_notes.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\page_notes\styles\page_notes.css
+      projectPath: Documentation\Mockups\plugins\page_notes\styles\page_notes.css
+      originalPath: Documentation\Maquettes\plugins\page_notes\styles\page_notes.css
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\recordplay\recordplay.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\recordplay\recordplay.js
+      projectPath: Documentation\Mockups\plugins\recordplay\recordplay.js
+      originalPath: Documentation\Maquettes\plugins\recordplay\recordplay.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\recordplay\styles\recordplay.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\recordplay\styles\recordplay.css
+      projectPath: Documentation\Mockups\plugins\recordplay\styles\recordplay.css
+      originalPath: Documentation\Maquettes\plugins\recordplay\styles\recordplay.css
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\079_page_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\079_page_16.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\079_page_16.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\079_page_16.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\086_case_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\086_case_16.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\086_case_16.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\086_case_16.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\225_responsive_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\225_responsive_16.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\225_responsive_16.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\225_responsive_16.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\228_togglenotes_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\228_togglenotes_16.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\228_togglenotes_16.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\228_togglenotes_16.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\229_variables_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\229_variables_16.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\229_variables_16.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\229_variables_16.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\231_event_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\231_event_16.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\231_event_16.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\231_event_16.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\232_search_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\232_search_16.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\232_search_16.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\232_search_16.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\233_hyperlink_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\233_hyperlink_16.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\233_hyperlink_16.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\233_hyperlink_16.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\235_folderclosed_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\235_folderclosed_16.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\235_folderclosed_16.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\235_folderclosed_16.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\236_folderopen_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\236_folderopen_16.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\236_folderopen_16.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\236_folderopen_16.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\adaptivecheck.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\adaptivecheck.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\adaptivecheck.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\adaptivecheck.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\flow.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\flow.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\flow.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\flow.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\flow.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\flow.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\flow.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\flow.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\folder_closed.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\folder_closed.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\folder_closed.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\folder_closed.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\folder_closed.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\folder_closed.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\folder_closed.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\folder_closed.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\folder_open.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\folder_open.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\folder_open.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\folder_open.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\folder_open.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\folder_open.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\folder_open.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\folder_open.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\hotspots.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\hotspots.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\hotspots.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\hotspots.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\hotspots.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\hotspots.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\hotspots_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\hotspots_hover.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\hotspots_hover.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_hover.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\hotspots_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\hotspots_hover.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\hotspots_hover.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_hover.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\hotspots_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\hotspots_on.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\hotspots_on.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_on.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\hotspots_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\hotspots_on.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\hotspots_on.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_on.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\images.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\images.html
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\images.html
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\images.html
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\minus.gif
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\minus.gif
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\minus.gif
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\minus.gif
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\note.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\note.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\note.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\note.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\note.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\note.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\note.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\note.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\page.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\page.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\page.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\page.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\page.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\page.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\page.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\page.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\plus.gif
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\plus.gif
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\plus.gif
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\plus.gif
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\share.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\share.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\share.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\share.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\share.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\share.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\share.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\share.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\share_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\share_hover.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\share_hover.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\share_hover.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\share_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\share_hover.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\share_hover.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\share_hover.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\share_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\share_on.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\share_on.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\share_on.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\share_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\share_on.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\share_on.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\share_on.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\sitemap_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\sitemap_hover.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\sitemap_hover.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_hover.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\sitemap_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\sitemap_hover.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\sitemap_hover.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_hover.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\sitemap_off.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\sitemap_off.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\sitemap_off.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_off.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\sitemap_off.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\sitemap_off.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\sitemap_off.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_off.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\sitemap_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\sitemap_on.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\sitemap_on.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_on.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\sitemap_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\sitemap_on.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\sitemap_on.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_on.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\views.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\views.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\views.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\views.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\views.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\views.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\views.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\views.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\views_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\views_hover.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\views_hover.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\views_hover.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\views_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\views_hover.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\views_hover.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\views_hover.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\views_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\views_on.png
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\views_on.png
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\views_on.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\images\views_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\images\views_on.svg
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\images\views_on.svg
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\images\views_on.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\plugins\sitemap\styles\sitemap.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\plugins\sitemap\styles\sitemap.css
+      projectPath: Documentation\Mockups\plugins\sitemap\styles\sitemap.css
+      originalPath: Documentation\Maquettes\plugins\sitemap\styles\sitemap.css
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\chrome\axure-chrome-extension.crx
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\chrome\axure-chrome-extension.crx
+      projectPath: Documentation\Mockups\resources\chrome\axure-chrome-extension.crx
+      originalPath: Documentation\Maquettes\resources\chrome\axure-chrome-extension.crx
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\chrome\splitter.gif
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\chrome\splitter.gif
+      projectPath: Documentation\Mockups\resources\chrome\splitter.gif
+      originalPath: Documentation\Maquettes\resources\chrome\splitter.gif
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\chrome\splitter.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\chrome\splitter.png
+      projectPath: Documentation\Mockups\resources\chrome\splitter.png
+      originalPath: Documentation\Maquettes\resources\chrome\splitter.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\axure_rp_page.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\axure_rp_page.css
+      projectPath: Documentation\Mockups\resources\css\axure_rp_page.css
+      originalPath: Documentation\Maquettes\resources\css\axure_rp_page.css
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\default.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\default.css
+      projectPath: Documentation\Mockups\resources\css\default.css
+      originalPath: Documentation\Maquettes\resources\css\default.css
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\images.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\images.html
+      projectPath: Documentation\Mockups\resources\css\images\images.html
+      originalPath: Documentation\Maquettes\resources\css\images\images.html
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\newwindow.gif
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\newwindow.gif
+      projectPath: Documentation\Mockups\resources\css\images\newwindow.gif
+      originalPath: Documentation\Maquettes\resources\css\images\newwindow.gif
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\note.gif
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\note.gif
+      projectPath: Documentation\Mockups\resources\css\images\note.gif
+      originalPath: Documentation\Maquettes\resources\css\images\note.gif
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\ui-bg_flat_0_aaaaaa_40x100.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\ui-bg_flat_0_aaaaaa_40x100.png
+      projectPath: Documentation\Mockups\resources\css\images\ui-bg_flat_0_aaaaaa_40x100.png
+      originalPath: Documentation\Maquettes\resources\css\images\ui-bg_flat_0_aaaaaa_40x100.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\ui-bg_glass_55_fbf9ee_1x400.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\ui-bg_glass_55_fbf9ee_1x400.png
+      projectPath: Documentation\Mockups\resources\css\images\ui-bg_glass_55_fbf9ee_1x400.png
+      originalPath: Documentation\Maquettes\resources\css\images\ui-bg_glass_55_fbf9ee_1x400.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\ui-bg_glass_65_ffffff_1x400.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\ui-bg_glass_65_ffffff_1x400.png
+      projectPath: Documentation\Mockups\resources\css\images\ui-bg_glass_65_ffffff_1x400.png
+      originalPath: Documentation\Maquettes\resources\css\images\ui-bg_glass_65_ffffff_1x400.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\ui-bg_glass_75_dadada_1x400.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\ui-bg_glass_75_dadada_1x400.png
+      projectPath: Documentation\Mockups\resources\css\images\ui-bg_glass_75_dadada_1x400.png
+      originalPath: Documentation\Maquettes\resources\css\images\ui-bg_glass_75_dadada_1x400.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\ui-bg_glass_75_e6e6e6_1x400.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\ui-bg_glass_75_e6e6e6_1x400.png
+      projectPath: Documentation\Mockups\resources\css\images\ui-bg_glass_75_e6e6e6_1x400.png
+      originalPath: Documentation\Maquettes\resources\css\images\ui-bg_glass_75_e6e6e6_1x400.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\ui-bg_glass_75_ffffff_1x400.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\ui-bg_glass_75_ffffff_1x400.png
+      projectPath: Documentation\Mockups\resources\css\images\ui-bg_glass_75_ffffff_1x400.png
+      originalPath: Documentation\Maquettes\resources\css\images\ui-bg_glass_75_ffffff_1x400.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+      projectPath: Documentation\Mockups\resources\css\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+      originalPath: Documentation\Maquettes\resources\css\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\ui-bg_inset-soft_95_fef1ec_1x100.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\ui-bg_inset-soft_95_fef1ec_1x100.png
+      projectPath: Documentation\Mockups\resources\css\images\ui-bg_inset-soft_95_fef1ec_1x100.png
+      originalPath: Documentation\Maquettes\resources\css\images\ui-bg_inset-soft_95_fef1ec_1x100.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\ui-icons_222222_256x240.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\ui-icons_222222_256x240.png
+      projectPath: Documentation\Mockups\resources\css\images\ui-icons_222222_256x240.png
+      originalPath: Documentation\Maquettes\resources\css\images\ui-icons_222222_256x240.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\ui-icons_2e83ff_256x240.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\ui-icons_2e83ff_256x240.png
+      projectPath: Documentation\Mockups\resources\css\images\ui-icons_2e83ff_256x240.png
+      originalPath: Documentation\Maquettes\resources\css\images\ui-icons_2e83ff_256x240.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\ui-icons_454545_256x240.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\ui-icons_454545_256x240.png
+      projectPath: Documentation\Mockups\resources\css\images\ui-icons_454545_256x240.png
+      originalPath: Documentation\Maquettes\resources\css\images\ui-icons_454545_256x240.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\ui-icons_888888_256x240.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\ui-icons_888888_256x240.png
+      projectPath: Documentation\Mockups\resources\css\images\ui-icons_888888_256x240.png
+      originalPath: Documentation\Maquettes\resources\css\images\ui-icons_888888_256x240.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\images\ui-icons_cd0a0a_256x240.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\images\ui-icons_cd0a0a_256x240.png
+      projectPath: Documentation\Mockups\resources\css\images\ui-icons_cd0a0a_256x240.png
+      originalPath: Documentation\Maquettes\resources\css\images\ui-icons_cd0a0a_256x240.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\jquery-ui-themes.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\jquery-ui-themes.css
+      projectPath: Documentation\Mockups\resources\css\jquery-ui-themes.css
+      originalPath: Documentation\Maquettes\resources\css\jquery-ui-themes.css
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\css\reset.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\css\reset.css
+      projectPath: Documentation\Mockups\resources\css\reset.css
+      originalPath: Documentation\Maquettes\resources\css\reset.css
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\259_close_12rollover1.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\259_close_12rollover1.png
+      projectPath: Documentation\Mockups\resources\images\259_close_12rollover1.png
+      originalPath: Documentation\Maquettes\resources\images\259_close_12rollover1.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\259_close_12rollover2.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\259_close_12rollover2.png
+      projectPath: Documentation\Mockups\resources\images\259_close_12rollover2.png
+      originalPath: Documentation\Maquettes\resources\images\259_close_12rollover2.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\260_collapse_12rollover1.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\260_collapse_12rollover1.png
+      projectPath: Documentation\Mockups\resources\images\260_collapse_12rollover1.png
+      originalPath: Documentation\Maquettes\resources\images\260_collapse_12rollover1.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\260_collapse_12rollover2.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\260_collapse_12rollover2.png
+      projectPath: Documentation\Mockups\resources\images\260_collapse_12rollover2.png
+      originalPath: Documentation\Maquettes\resources\images\260_collapse_12rollover2.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\261_expand_12rollover1.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\261_expand_12rollover1.png
+      projectPath: Documentation\Mockups\resources\images\261_expand_12rollover1.png
+      originalPath: Documentation\Maquettes\resources\images\261_expand_12rollover1.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\261_expand_12rollover2.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\261_expand_12rollover2.png
+      projectPath: Documentation\Mockups\resources\images\261_expand_12rollover2.png
+      originalPath: Documentation\Maquettes\resources\images\261_expand_12rollover2.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\close.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\close.png
+      projectPath: Documentation\Mockups\resources\images\close.png
+      originalPath: Documentation\Maquettes\resources\images\close.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\close.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\close.svg
+      projectPath: Documentation\Mockups\resources\images\close.svg
+      originalPath: Documentation\Maquettes\resources\images\close.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\close_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\close_hover.png
+      projectPath: Documentation\Mockups\resources\images\close_hover.png
+      originalPath: Documentation\Maquettes\resources\images\close_hover.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\close_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\close_hover.svg
+      projectPath: Documentation\Mockups\resources\images\close_hover.svg
+      originalPath: Documentation\Maquettes\resources\images\close_hover.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\divider.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\divider.png
+      projectPath: Documentation\Mockups\resources\images\divider.png
+      originalPath: Documentation\Maquettes\resources\images\divider.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\divider.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\divider.svg
+      projectPath: Documentation\Mockups\resources\images\divider.svg
+      originalPath: Documentation\Maquettes\resources\images\divider.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\expand.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\expand.png
+      projectPath: Documentation\Mockups\resources\images\expand.png
+      originalPath: Documentation\Maquettes\resources\images\expand.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\expand.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\expand.svg
+      projectPath: Documentation\Mockups\resources\images\expand.svg
+      originalPath: Documentation\Maquettes\resources\images\expand.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\expand_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\expand_hover.png
+      projectPath: Documentation\Mockups\resources\images\expand_hover.png
+      originalPath: Documentation\Maquettes\resources\images\expand_hover.png
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\expand_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\expand_hover.svg
+      projectPath: Documentation\Mockups\resources\images\expand_hover.svg
+      originalPath: Documentation\Maquettes\resources\images\expand_hover.svg
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\images.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\images.html
+      projectPath: Documentation\Mockups\resources\images\images.html
+      originalPath: Documentation\Maquettes\resources\images\images.html
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\images\transparent.gif
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\images\transparent.gif
+      projectPath: Documentation\Mockups\resources\images\transparent.gif
+      originalPath: Documentation\Maquettes\resources\images\transparent.gif
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\scripts\jquery-1.7.1.min.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\scripts\jquery-1.7.1.min.js
+      projectPath: Documentation\Mockups\resources\scripts\jquery-1.7.1.min.js
+      originalPath: Documentation\Maquettes\resources\scripts\jquery-1.7.1.min.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\scripts\jquery-ui-1.8.10.custom.min.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\scripts\jquery-ui-1.8.10.custom.min.js
+      projectPath: Documentation\Mockups\resources\scripts\jquery-ui-1.8.10.custom.min.js
+      originalPath: Documentation\Maquettes\resources\scripts\jquery-ui-1.8.10.custom.min.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\scripts\messagecenter.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\scripts\messagecenter.js
+      projectPath: Documentation\Mockups\resources\scripts\messagecenter.js
+      originalPath: Documentation\Maquettes\resources\scripts\messagecenter.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\scripts\player\axplayer.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\scripts\player\axplayer.js
+      projectPath: Documentation\Mockups\resources\scripts\player\axplayer.js
+      originalPath: Documentation\Maquettes\resources\scripts\player\axplayer.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\scripts\player\splitter.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\scripts\player\splitter.js
+      projectPath: Documentation\Mockups\resources\scripts\player\splitter.js
+      originalPath: Documentation\Maquettes\resources\scripts\player\splitter.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\scripts\prototypePost.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\scripts\prototypePost.js
+      projectPath: Documentation\Mockups\resources\scripts\prototypePost.js
+      originalPath: Documentation\Maquettes\resources\scripts\prototypePost.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\scripts\prototypePre.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\scripts\prototypePre.js
+      projectPath: Documentation\Mockups\resources\scripts\prototypePre.js
+      originalPath: Documentation\Maquettes\resources\scripts\prototypePre.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\scripts\startPost.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\scripts\startPost.js
+      projectPath: Documentation\Mockups\resources\scripts\startPost.js
+      originalPath: Documentation\Maquettes\resources\scripts\startPost.js
+      status: 6
+      staged: 0
+    - path: Documentation\Mockups\resources\scripts\startPre.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Mockups\resources\scripts\startPre.js
+      projectPath: Documentation\Mockups\resources\scripts\startPre.js
+      originalPath: Documentation\Maquettes\resources\scripts\startPre.js
+      status: 6
+      staged: 0
+  - commitID: 7e4e4c62be95cc634e43d486b45cbdb62f66bf50
+    mergeA: 
+    mergeB: 
+    authorName: AlexiGhost
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: AlexiGhost
+    summary: Mockup pictures
+    description: Mockup pictures
+    timeString: 2019-01-24T20:50:55.000+01:00
+    commitTimeString: 2019-01-24T20:50:55.000+01:00
+    changes:
+    - path: Documentation\Maquettes\Game.PNG
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\Game.PNG
+      projectPath: Documentation\Maquettes\Game.PNG
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\Menu_Pause.PNG
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\Menu_Pause.PNG
+      projectPath: Documentation\Maquettes\Menu_Pause.PNG
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\Menu_home.PNG
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\Menu_home.PNG
+      projectPath: Documentation\Maquettes\Menu_home.PNG
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\Menu_level.PNG
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\Menu_level.PNG
+      projectPath: Documentation\Maquettes\Menu_level.PNG
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\Menu_options.PNG
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\Menu_options.PNG
+      projectPath: Documentation\Maquettes\Menu_options.PNG
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 0ae6d47269dee6ab8b2353508acade5eac98c261
+    mergeA: 
+    mergeB: 
+    authorName: AlexiGhost
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: AlexiGhost
+    summary: Deleted useless ressources in Maquette folder
+    description: Deleted useless ressources in Maquette folder
+    timeString: 2019-01-24T20:50:20.000+01:00
+    commitTimeString: 2019-01-24T20:50:20.000+01:00
+    changes:
+    - path: Documentation\Maquettes\break_it.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\break_it.html
+      projectPath: Documentation\Maquettes\break_it.html
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\files\break_it\data.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\files\break_it\data.js
+      projectPath: Documentation\Maquettes\files\break_it\data.js
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\files\break_it\styles.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\files\break_it\styles.css
+      projectPath: Documentation\Maquettes\files\break_it\styles.css
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\index.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\index.html
+      projectPath: Documentation\Maquettes\index.html
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\resources\Other.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\Other.html
+      projectPath: Documentation\Maquettes\resources\Other.html
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\allow-access.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\allow-access.png
+      projectPath: Documentation\Maquettes\resources\chrome\allow-access.png
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\axure_logo.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\axure_logo.png
+      projectPath: Documentation\Maquettes\resources\chrome\axure_logo.png
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\chrome.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\chrome.html
+      projectPath: Documentation\Maquettes\resources\chrome\chrome.html
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\details.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\details.png
+      projectPath: Documentation\Maquettes\resources\chrome\details.png
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\extensions.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\extensions.png
+      projectPath: Documentation\Maquettes\resources\chrome\extensions.png
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\safari.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\safari.html
+      projectPath: Documentation\Maquettes\resources\chrome\safari.html
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\safari_advanced.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\safari_advanced.png
+      projectPath: Documentation\Maquettes\resources\chrome\safari_advanced.png
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\safari_restrictions.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\safari_restrictions.png
+      projectPath: Documentation\Maquettes\resources\chrome\safari_restrictions.png
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\resources\expand.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\expand.html
+      projectPath: Documentation\Maquettes\resources\expand.html
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\resources\reload.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\reload.html
+      projectPath: Documentation\Maquettes\resources\reload.html
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\start.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\start.html
+      projectPath: Documentation\Maquettes\start.html
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\start_c_1.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\start_c_1.html
+      projectPath: Documentation\Maquettes\start_c_1.html
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Documentation\Maquettes\start_g_0.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\start_g_0.html
+      projectPath: Documentation\Maquettes\start_g_0.html
+      originalPath: 
+      status: 5
+      staged: 0
+  - commitID: ed034c46d1d5349d887784fa33e0eacfc6510f57
+    mergeA: 
+    mergeB: 
+    authorName: Alexi Courieux
+    authorEmail: courieuxa@gmail.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update README.md
+    description: Update README.md
+    timeString: 2019-01-22T17:00:22.000+01:00
+    commitTimeString: 2019-01-22T17:00:22.000+01:00
+    changes:
+    - path: README.md
+      fullPath: E:\Projects\Unity\lp_gl_break-it\README.md
+      projectPath: README.md
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 7dd3047abc61474eec79246e7550c1563101a00c
+    mergeA: 
+    mergeB: 
+    authorName: WhiteDumb
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: WhiteDumb
+    summary: 'close #2'
+    description: 'close #2'
+    timeString: 2019-01-22T15:53:24.000+01:00
+    commitTimeString: 2019-01-22T15:53:24.000+01:00
+    changes:
+    - path: Documentation\Diagrammes\Diagramme_de_sequence.pdf
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Diagrammes\Diagramme_de_sequence.pdf
+      projectPath: Documentation\Diagrammes\Diagramme_de_sequence.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: f11224695643cae51eab16b87491534d67da3c7e
+    mergeA: 
+    mergeB: 
+    authorName: WhiteDumb
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: WhiteDumb
+    summary: 'close #1'
+    description: 'close #1'
+    timeString: 2019-01-22T15:52:59.000+01:00
+    commitTimeString: 2019-01-22T15:52:59.000+01:00
+    changes:
+    - path: Documentation\Diagrammes\Diagramme_de_cas_d_utilisation.pdf
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Diagrammes\Diagramme_de_cas_d_utilisation.pdf
+      projectPath: Documentation\Diagrammes\Diagramme_de_cas_d_utilisation.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 56a77c7c536ed84ee901d7a4cafc1839a987a43e
+    mergeA: 
+    mergeB: 
+    authorName: WhiteDumb
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: WhiteDumb
+    summary: 'close #3'
+    description: 'close #3'
+    timeString: 2019-01-22T15:52:04.000+01:00
+    commitTimeString: 2019-01-22T15:52:04.000+01:00
+    changes:
+    - path: Documentation\Diagrammes\Diagramme_de_blocs.pdf
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Diagrammes\Diagramme_de_blocs.pdf
+      projectPath: Documentation\Diagrammes\Diagramme_de_blocs.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Packages\manifest.json
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: adc44df36dcfe16e271935be05a715441b6b7b40
+    mergeA: 
+    mergeB: 
+    authorName: WhiteDumb
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: WhiteDumb
+    summary: Mock-up added
+    description: Mock-up added
+    timeString: 2019-01-17T11:39:30.000+01:00
+    commitTimeString: 2019-01-17T11:39:30.000+01:00
+    changes:
+    - path: Documentation\Maquettes\break_it.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\break_it.html
+      projectPath: Documentation\Maquettes\break_it.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\data\document.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\data\document.js
+      projectPath: Documentation\Maquettes\data\document.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\data\styles.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\data\styles.css
+      projectPath: Documentation\Maquettes\data\styles.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\files\break_it\data.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\files\break_it\data.js
+      projectPath: Documentation\Maquettes\files\break_it\data.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\files\break_it\styles.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\files\break_it\styles.css
+      projectPath: Documentation\Maquettes\files\break_it\styles.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\files\game\data.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\files\game\data.js
+      projectPath: Documentation\Maquettes\files\game\data.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\files\game\styles.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\files\game\styles.css
+      projectPath: Documentation\Maquettes\files\game\styles.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\files\menu_home\data.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\files\menu_home\data.js
+      projectPath: Documentation\Maquettes\files\menu_home\data.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\files\menu_home\styles.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\files\menu_home\styles.css
+      projectPath: Documentation\Maquettes\files\menu_home\styles.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\files\menu_level\data.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\files\menu_level\data.js
+      projectPath: Documentation\Maquettes\files\menu_level\data.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\files\menu_level\styles.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\files\menu_level\styles.css
+      projectPath: Documentation\Maquettes\files\menu_level\styles.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\files\menu_options\data.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\files\menu_options\data.js
+      projectPath: Documentation\Maquettes\files\menu_options\data.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\files\menu_options\styles.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\files\menu_options\styles.css
+      projectPath: Documentation\Maquettes\files\menu_options\styles.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\game.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\game.html
+      projectPath: Documentation\Maquettes\game.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\images\game\u1.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\images\game\u1.png
+      projectPath: Documentation\Maquettes\images\game\u1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\images\menu_options\u50.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\images\menu_options\u50.png
+      projectPath: Documentation\Maquettes\images\menu_options\u50.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\index.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\index.html
+      projectPath: Documentation\Maquettes\index.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\menu_home.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\menu_home.html
+      projectPath: Documentation\Maquettes\menu_home.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\menu_level.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\menu_level.html
+      projectPath: Documentation\Maquettes\menu_level.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\menu_options.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\menu_options.html
+      projectPath: Documentation\Maquettes\menu_options.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\debug\styles\debug.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\debug\styles\debug.css
+      projectPath: Documentation\Maquettes\plugins\debug\styles\debug.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\debug\styles\images\reset.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\debug\styles\images\reset.svg
+      projectPath: Documentation\Maquettes\plugins\debug\styles\images\reset.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\debug\styles\images\reset_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\debug\styles\images\reset_hover.svg
+      projectPath: Documentation\Maquettes\plugins\debug\styles\images\reset_hover.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\debug\styles\images\variables_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\debug\styles\images\variables_hover.png
+      projectPath: Documentation\Maquettes\plugins\debug\styles\images\variables_hover.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\debug\styles\images\variables_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\debug\styles\images\variables_hover.svg
+      projectPath: Documentation\Maquettes\plugins\debug\styles\images\variables_hover.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\debug\styles\images\variables_off.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\debug\styles\images\variables_off.png
+      projectPath: Documentation\Maquettes\plugins\debug\styles\images\variables_off.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\debug\styles\images\variables_off.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\debug\styles\images\variables_off.svg
+      projectPath: Documentation\Maquettes\plugins\debug\styles\images\variables_off.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\debug\styles\images\variables_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\debug\styles\images\variables_on.png
+      projectPath: Documentation\Maquettes\plugins\debug\styles\images\variables_on.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\debug\styles\images\variables_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\debug\styles\images\variables_on.svg
+      projectPath: Documentation\Maquettes\plugins\debug\styles\images\variables_on.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\back.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\back.png
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\back.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\back.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\back.svg
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\back.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\back_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\back_hover.png
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\back_hover.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\back_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\back_hover.svg
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\back_hover.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\footnotes.png
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\footnotes.svg
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_hover.png
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_hover.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_hover.svg
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_hover.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_on.png
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_on.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_on.svg
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\footnotes_on.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\forward.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\forward.png
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\forward.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\forward.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\forward.svg
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\forward.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\forward_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\forward_hover.png
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\forward_hover.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\forward_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\forward_hover.svg
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\forward_hover.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\notes_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\notes_hover.png
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\notes_hover.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\notes_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\notes_hover.svg
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\notes_hover.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\notes_off.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\notes_off.png
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\notes_off.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\notes_off.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\notes_off.svg
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\notes_off.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\notes_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\notes_on.png
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\notes_on.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\images\notes_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\images\notes_on.svg
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\images\notes_on.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\page_notes\styles\page_notes.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\page_notes\styles\page_notes.css
+      projectPath: Documentation\Maquettes\plugins\page_notes\styles\page_notes.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\recordplay\recordplay.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\recordplay\recordplay.js
+      projectPath: Documentation\Maquettes\plugins\recordplay\recordplay.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\recordplay\styles\recordplay.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\recordplay\styles\recordplay.css
+      projectPath: Documentation\Maquettes\plugins\recordplay\styles\recordplay.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\079_page_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\079_page_16.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\079_page_16.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\086_case_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\086_case_16.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\086_case_16.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\225_responsive_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\225_responsive_16.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\225_responsive_16.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\228_togglenotes_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\228_togglenotes_16.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\228_togglenotes_16.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\229_variables_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\229_variables_16.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\229_variables_16.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\231_event_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\231_event_16.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\231_event_16.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\232_search_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\232_search_16.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\232_search_16.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\233_hyperlink_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\233_hyperlink_16.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\233_hyperlink_16.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\235_folderclosed_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\235_folderclosed_16.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\235_folderclosed_16.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\236_folderopen_16.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\236_folderopen_16.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\236_folderopen_16.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\adaptivecheck.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\adaptivecheck.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\adaptivecheck.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\flow.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\flow.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\flow.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\flow.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\flow.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\flow.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\folder_closed.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\folder_closed.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\folder_closed.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\folder_closed.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\folder_closed.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\folder_closed.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\folder_open.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\folder_open.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\folder_open.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\folder_open.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\folder_open.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\folder_open.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\hotspots.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\hotspots.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_hover.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_hover.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_hover.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_hover.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_on.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_on.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_on.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\hotspots_on.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\images.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\images.html
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\images.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\minus.gif
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\minus.gif
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\minus.gif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\note.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\note.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\note.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\note.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\note.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\note.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\page.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\page.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\page.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\page.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\page.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\page.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\plus.gif
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\plus.gif
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\plus.gif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\share.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\share.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\share.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\share.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\share.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\share.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\share_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\share_hover.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\share_hover.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\share_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\share_hover.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\share_hover.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\share_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\share_on.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\share_on.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\share_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\share_on.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\share_on.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_hover.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_hover.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_hover.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_hover.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_off.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_off.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_off.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_off.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_off.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_off.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_on.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_on.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_on.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\sitemap_on.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\views.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\views.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\views.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\views.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\views.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\views.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\views_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\views_hover.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\views_hover.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\views_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\views_hover.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\views_hover.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\views_on.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\views_on.png
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\views_on.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\images\views_on.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\images\views_on.svg
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\images\views_on.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\plugins\sitemap\styles\sitemap.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\plugins\sitemap\styles\sitemap.css
+      projectPath: Documentation\Maquettes\plugins\sitemap\styles\sitemap.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\Other.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\Other.html
+      projectPath: Documentation\Maquettes\resources\Other.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\allow-access.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\allow-access.png
+      projectPath: Documentation\Maquettes\resources\chrome\allow-access.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\axure-chrome-extension.crx
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\axure-chrome-extension.crx
+      projectPath: Documentation\Maquettes\resources\chrome\axure-chrome-extension.crx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\axure_logo.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\axure_logo.png
+      projectPath: Documentation\Maquettes\resources\chrome\axure_logo.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\chrome.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\chrome.html
+      projectPath: Documentation\Maquettes\resources\chrome\chrome.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\details.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\details.png
+      projectPath: Documentation\Maquettes\resources\chrome\details.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\extensions.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\extensions.png
+      projectPath: Documentation\Maquettes\resources\chrome\extensions.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\safari.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\safari.html
+      projectPath: Documentation\Maquettes\resources\chrome\safari.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\safari_advanced.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\safari_advanced.png
+      projectPath: Documentation\Maquettes\resources\chrome\safari_advanced.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\safari_restrictions.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\safari_restrictions.png
+      projectPath: Documentation\Maquettes\resources\chrome\safari_restrictions.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\splitter.gif
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\splitter.gif
+      projectPath: Documentation\Maquettes\resources\chrome\splitter.gif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\chrome\splitter.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\chrome\splitter.png
+      projectPath: Documentation\Maquettes\resources\chrome\splitter.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\axure_rp_page.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\axure_rp_page.css
+      projectPath: Documentation\Maquettes\resources\css\axure_rp_page.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\default.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\default.css
+      projectPath: Documentation\Maquettes\resources\css\default.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\images.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\images.html
+      projectPath: Documentation\Maquettes\resources\css\images\images.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\newwindow.gif
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\newwindow.gif
+      projectPath: Documentation\Maquettes\resources\css\images\newwindow.gif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\note.gif
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\note.gif
+      projectPath: Documentation\Maquettes\resources\css\images\note.gif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\ui-bg_flat_0_aaaaaa_40x100.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\ui-bg_flat_0_aaaaaa_40x100.png
+      projectPath: Documentation\Maquettes\resources\css\images\ui-bg_flat_0_aaaaaa_40x100.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\ui-bg_glass_55_fbf9ee_1x400.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\ui-bg_glass_55_fbf9ee_1x400.png
+      projectPath: Documentation\Maquettes\resources\css\images\ui-bg_glass_55_fbf9ee_1x400.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\ui-bg_glass_65_ffffff_1x400.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\ui-bg_glass_65_ffffff_1x400.png
+      projectPath: Documentation\Maquettes\resources\css\images\ui-bg_glass_65_ffffff_1x400.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\ui-bg_glass_75_dadada_1x400.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\ui-bg_glass_75_dadada_1x400.png
+      projectPath: Documentation\Maquettes\resources\css\images\ui-bg_glass_75_dadada_1x400.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\ui-bg_glass_75_e6e6e6_1x400.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\ui-bg_glass_75_e6e6e6_1x400.png
+      projectPath: Documentation\Maquettes\resources\css\images\ui-bg_glass_75_e6e6e6_1x400.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\ui-bg_glass_75_ffffff_1x400.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\ui-bg_glass_75_ffffff_1x400.png
+      projectPath: Documentation\Maquettes\resources\css\images\ui-bg_glass_75_ffffff_1x400.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+      projectPath: Documentation\Maquettes\resources\css\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\ui-bg_inset-soft_95_fef1ec_1x100.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\ui-bg_inset-soft_95_fef1ec_1x100.png
+      projectPath: Documentation\Maquettes\resources\css\images\ui-bg_inset-soft_95_fef1ec_1x100.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\ui-icons_222222_256x240.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\ui-icons_222222_256x240.png
+      projectPath: Documentation\Maquettes\resources\css\images\ui-icons_222222_256x240.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\ui-icons_2e83ff_256x240.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\ui-icons_2e83ff_256x240.png
+      projectPath: Documentation\Maquettes\resources\css\images\ui-icons_2e83ff_256x240.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\ui-icons_454545_256x240.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\ui-icons_454545_256x240.png
+      projectPath: Documentation\Maquettes\resources\css\images\ui-icons_454545_256x240.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\ui-icons_888888_256x240.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\ui-icons_888888_256x240.png
+      projectPath: Documentation\Maquettes\resources\css\images\ui-icons_888888_256x240.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\images\ui-icons_cd0a0a_256x240.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\images\ui-icons_cd0a0a_256x240.png
+      projectPath: Documentation\Maquettes\resources\css\images\ui-icons_cd0a0a_256x240.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\jquery-ui-themes.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\jquery-ui-themes.css
+      projectPath: Documentation\Maquettes\resources\css\jquery-ui-themes.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\css\reset.css
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\css\reset.css
+      projectPath: Documentation\Maquettes\resources\css\reset.css
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\expand.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\expand.html
+      projectPath: Documentation\Maquettes\resources\expand.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\259_close_12rollover1.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\259_close_12rollover1.png
+      projectPath: Documentation\Maquettes\resources\images\259_close_12rollover1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\259_close_12rollover2.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\259_close_12rollover2.png
+      projectPath: Documentation\Maquettes\resources\images\259_close_12rollover2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\260_collapse_12rollover1.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\260_collapse_12rollover1.png
+      projectPath: Documentation\Maquettes\resources\images\260_collapse_12rollover1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\260_collapse_12rollover2.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\260_collapse_12rollover2.png
+      projectPath: Documentation\Maquettes\resources\images\260_collapse_12rollover2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\261_expand_12rollover1.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\261_expand_12rollover1.png
+      projectPath: Documentation\Maquettes\resources\images\261_expand_12rollover1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\261_expand_12rollover2.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\261_expand_12rollover2.png
+      projectPath: Documentation\Maquettes\resources\images\261_expand_12rollover2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\close.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\close.png
+      projectPath: Documentation\Maquettes\resources\images\close.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\close.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\close.svg
+      projectPath: Documentation\Maquettes\resources\images\close.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\close_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\close_hover.png
+      projectPath: Documentation\Maquettes\resources\images\close_hover.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\close_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\close_hover.svg
+      projectPath: Documentation\Maquettes\resources\images\close_hover.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\divider.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\divider.png
+      projectPath: Documentation\Maquettes\resources\images\divider.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\divider.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\divider.svg
+      projectPath: Documentation\Maquettes\resources\images\divider.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\expand.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\expand.png
+      projectPath: Documentation\Maquettes\resources\images\expand.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\expand.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\expand.svg
+      projectPath: Documentation\Maquettes\resources\images\expand.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\expand_hover.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\expand_hover.png
+      projectPath: Documentation\Maquettes\resources\images\expand_hover.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\expand_hover.svg
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\expand_hover.svg
+      projectPath: Documentation\Maquettes\resources\images\expand_hover.svg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\images.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\images.html
+      projectPath: Documentation\Maquettes\resources\images\images.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\images\transparent.gif
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\images\transparent.gif
+      projectPath: Documentation\Maquettes\resources\images\transparent.gif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\reload.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\reload.html
+      projectPath: Documentation\Maquettes\resources\reload.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\scripts\jquery-1.7.1.min.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\scripts\jquery-1.7.1.min.js
+      projectPath: Documentation\Maquettes\resources\scripts\jquery-1.7.1.min.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\scripts\jquery-ui-1.8.10.custom.min.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\scripts\jquery-ui-1.8.10.custom.min.js
+      projectPath: Documentation\Maquettes\resources\scripts\jquery-ui-1.8.10.custom.min.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\scripts\messagecenter.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\scripts\messagecenter.js
+      projectPath: Documentation\Maquettes\resources\scripts\messagecenter.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\scripts\player\axplayer.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\scripts\player\axplayer.js
+      projectPath: Documentation\Maquettes\resources\scripts\player\axplayer.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\scripts\player\splitter.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\scripts\player\splitter.js
+      projectPath: Documentation\Maquettes\resources\scripts\player\splitter.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\scripts\prototypePost.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\scripts\prototypePost.js
+      projectPath: Documentation\Maquettes\resources\scripts\prototypePost.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\scripts\prototypePre.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\scripts\prototypePre.js
+      projectPath: Documentation\Maquettes\resources\scripts\prototypePre.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\scripts\startPost.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\scripts\startPost.js
+      projectPath: Documentation\Maquettes\resources\scripts\startPost.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\resources\scripts\startPre.js
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\resources\scripts\startPre.js
+      projectPath: Documentation\Maquettes\resources\scripts\startPre.js
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\start.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\start.html
+      projectPath: Documentation\Maquettes\start.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\start_c_1.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\start_c_1.html
+      projectPath: Documentation\Maquettes\start_c_1.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Documentation\Maquettes\start_g_0.html
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Documentation\Maquettes\start_g_0.html
+      projectPath: Documentation\Maquettes\start_g_0.html
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: aeae0c85a6740fa7a8e4ed7f3808f37cb697f8f8
+    mergeA: 
+    mergeB: 
+    authorName: WhiteDumb
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: WhiteDumb
+    summary: Fix package issue
+    description: Fix package issue
+    timeString: 2019-01-17T11:31:50.000+01:00
+    commitTimeString: 2019-01-17T11:31:50.000+01:00
+    changes:
+    - path: GL_BreakIt.sln
+      fullPath: E:\Projects\Unity\lp_gl_break-it\GL_BreakIt.sln
+      projectPath: GL_BreakIt.sln
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 7cdcd98a55d7853b6df31d4577a002aad8bdfcc4
+    mergeA: 
+    mergeB: 
+    authorName: WhiteDumb
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: WhiteDumb
+    summary: GitHub plugin added
+    description: GitHub plugin added
+    timeString: 2019-01-17T11:14:19.000+01:00
+    commitTimeString: 2019-01-17T11:14:19.000+01:00
+    changes:
+    - path: Assets\Plugins.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: c430387b333719e1de1085a04d7f796258c6ba89
+    mergeA: 
+    mergeB: 
+    authorName: WhiteDumb
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: WhiteDumb
+    summary: Edit .gitignore to accept *.sln files
+    description: Edit .gitignore to accept *.sln files
+    timeString: 2019-01-17T11:01:54.000+01:00
+    commitTimeString: 2019-01-17T11:01:54.000+01:00
+    changes:
+    - path: .gitignore
+      fullPath: E:\Projects\Unity\lp_gl_break-it\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: GL_BreakIt.sln
+      fullPath: E:\Projects\Unity\lp_gl_break-it\GL_BreakIt.sln
+      projectPath: GL_BreakIt.sln
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 2d8e988ffe52607ee9bc9f5b5a3202ea45b13e1e
+    mergeA: 
+    mergeB: 
+    authorName: WhiteDumb
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: WhiteDumb
+    summary: Add solution (.sln) to the project
+    description: Add solution (.sln) to the project
+    timeString: 2019-01-17T10:52:34.000+01:00
+    commitTimeString: 2019-01-17T10:52:34.000+01:00
+    changes:
+    - path: .travis.yml
+      fullPath: E:\Projects\Unity\lp_gl_break-it\.travis.yml
+      projectPath: .travis.yml
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 3ef86cf8ae2342c707a2f1c2373046a45788a282
+    mergeA: 
+    mergeB: 
+    authorName: WhiteDumb
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: WhiteDumb
+    summary: Travis CI configuration
+    description: Travis CI configuration
+    timeString: 2019-01-17T09:38:08.000+01:00
+    commitTimeString: 2019-01-17T09:38:08.000+01:00
+    changes:
+    - path: .travis.yml
+      fullPath: E:\Projects\Unity\lp_gl_break-it\.travis.yml
+      projectPath: .travis.yml
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 932631bae5be0ad034ab44c398b6396a235b4360
+    mergeA: 
+    mergeB: 
+    authorName: WhiteDumb
+    authorEmail: courieuxa@gmail.com
+    commitEmail: courieuxa@gmail.com
+    commitName: WhiteDumb
+    summary: Empty Unity project
+    description: Empty Unity project
+    timeString: 2019-01-17T09:36:43.000+01:00
+    commitTimeString: 2019-01-17T09:36:43.000+01:00
+    changes:
+    - path: Assets\Scenes.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Logs\Packages-Update.log
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Logs\Packages-Update.log
+      projectPath: Logs\Packages-Update.log
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Packages\manifest.json
+      fullPath: E:\Projects\Unity\lp_gl_break-it\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: E:\Projects\Unity\lp_gl_break-it\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: a7b940dd79568bae166dc1097f827a1e010029c8
+    mergeA: 
+    mergeB: 
+    authorName: Alexi Courieux
+    authorEmail: courieuxa@gmail.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Initial commit
+    description: Initial commit
+    timeString: 2019-01-17T09:30:04.000+01:00
+    commitTimeString: 2019-01-17T09:30:04.000+01:00
+    changes:
+    - path: .gitignore
+      fullPath: E:\Projects\Unity\lp_gl_break-it\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: README.md
+      fullPath: E:\Projects\Unity\lp_gl_break-it\README.md
+      projectPath: README.md
+      originalPath: 
+      status: 4
+      staged: 0

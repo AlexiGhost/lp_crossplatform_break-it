@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: GitHub.Unity.45:GitHub.Unity:GitUserCache
+  cacheType: 7
+  lastUpdatedAtString: 2019-01-25T01:40:44.340+01:00
+  initializedAtString: 2019-01-25T01:40:44.334+01:00
+  gitName: AlexiGhost
+  gitEmail: courieuxa@gmail.com
