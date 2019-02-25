@@ -1,0 +1,23 @@
+{
+  "name": "Break-It",
+  "short_name": "Break-It",
+  "start_url": "./menu_home.html",
+  "icons": [{
+      "src": "",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#0365C0",
+  "theme_color": "#51A7F9",
+  "display": "standalone",
+  "orientation": "portrait"
+}
