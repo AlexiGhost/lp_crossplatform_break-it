@@ -1,10 +1,6 @@
 var cacheName = 'break-it';
 var filesToCache = [
   './',
-  './data',
-  './files',
-  './images',
-  './plugins',
   './resources/scripts/jquery-1.7.1.min',
   './index.html',
   './menu_level.html',
