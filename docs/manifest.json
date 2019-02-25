@@ -1,7 +1,7 @@
 {
   "name": "Break-It",
   "short_name": "Break-It",
-  "start_url": "./menu_home.html",
+  "start_url": "index.html",
   "icons": [{
       "src": "",
       "sizes": "152x152",

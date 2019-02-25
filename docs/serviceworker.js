@@ -6,7 +6,7 @@ var filesToCache = [
   './images',
   './plugins',
   './resources/scripts/jquery-1.7.1.min',
-  './menu_home.html',
+  './index.html',
   './menu_level.html',
   './menu_options.html',
   './game.html',
