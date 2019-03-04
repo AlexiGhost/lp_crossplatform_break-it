@@ -1,0 +1,7 @@
+{
+  "name": "breat-it",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
