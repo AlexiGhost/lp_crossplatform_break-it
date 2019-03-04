@@ -4,6 +4,15 @@ var filesToCache = [
   'menu_level.html',
   'menu_options.html',
   'game.html',
+  'logo152x152.png',
+  'logo192x192.png',
+  'logo256x256.png',
+  'logo512x512.png',
+  'manifest.json',
+  'data/document.js',
+  'data/styles.css',
+  'images/game/u1.png',
+  'images/menu_options/u50.png',
 ];
 
 this.addEventListener('install', function(e) {
