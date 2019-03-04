@@ -1,11 +1,11 @@
 var cacheName = 'break-it';
 var filesToCache = [
-  '/',
-  '/resources/scripts/jquery-1.7.1.min',
+  '/index.html',
+  /*'/resources/scripts/jquery-1.7.1.min',
   '/index.html',
   '/menu_level.html',
   '/menu_options.html',
-  '/game.html',
+  '/game.html',*/
 ];
 
 this.addEventListener('install', function(e) {
