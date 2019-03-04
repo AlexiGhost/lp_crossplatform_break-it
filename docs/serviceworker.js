@@ -1,19 +1,16 @@
 var cacheName = 'break-it';
 var filesToCache = [
-  '/index.html',
-  /*'/resources/scripts/jquery-1.7.1.min',
-  '/index.html',
-  '/menu_level.html',
-  '/menu_options.html',
-  '/game.html',*/
+  'index.html',
 ];
 
 this.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
-    caches.open(cacheName).then(function(cache) {
-      console.log('[ServiceWorker] Caching app shell');
-      return cache.addAll(filesToCache);
-    });
+  e.waitUntil(
+		caches.open(cacheName).then(function(cache) {
+		  console.log('[ServiceWorker] Caching app shell');
+		  return cache.addAll(filesToCache);
+		})
+	);
 });
 
 this.addEventListener('beforeinstallprompt', function(e) {
