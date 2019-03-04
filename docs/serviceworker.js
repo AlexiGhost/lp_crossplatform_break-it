@@ -18,6 +18,7 @@ this.addEventListener('install', function(e) {
 
 this.addEventListener('beforeinstallprompt', function(e) {
   // For more details read: https://developers.google.com/web/fundamentals/getting-started/primers/promises
+  e.prompt();
   e.userChoice.then(function(choiceResult) {
 
     console.log(choiceResult.outcome);
