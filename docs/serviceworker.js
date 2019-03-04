@@ -1,6 +1,9 @@
-var cacheName = 'break-it';
+var cacheName = 'break-it.v2';
 var filesToCache = [
   'index.html',
+  'menu_level.html',
+  'menu_options.html',
+  'game.html',
 ];
 
 this.addEventListener('install', function(e) {
