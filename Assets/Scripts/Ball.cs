@@ -17,20 +17,15 @@ public class Ball : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Update()
+    void Update()
     {
         if(Input.GetButtonDown("Fire1") && !launched)
         {
-            LaunchBall();
+            transform.parent = null;
+            launched = true;
+            rb.isKinematic = false;
+            rb.AddForce(new Vector3(ballInitialVelocity, ballInitialVelocity, 0));
         }
-    }
-
-    private void LaunchBall()
-    {
-        transform.parent = null;
-        launched = true;
-        rb.isKinematic = false;
-        rb.AddForce(new Vector3(ballInitialVelocity, ballInitialVelocity, 0));
     }
 
     public void OnCollisionEnter(Collision other)
