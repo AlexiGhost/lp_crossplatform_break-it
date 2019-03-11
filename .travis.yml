@@ -1,0 +1,16 @@
+language: objective-c
+os: osx
+branches:
+  only:
+  - master
+before_install:
+    - chmod a+x ./travis-scripts/install.sh
+    - chmod a+x ./travis-scripts/build.sh
+    - export UNITY_LICENSE_CONTENT=`cat Unity_v2018.x.ulf`
+install:
+    - ./travis-scripts/install.sh
+script:
+    - ./travis-scripts/build.sh
+env:
+  global:
+  - VERSION="2018.3.3f1" 

@@ -8,5 +8,6 @@ public class DeathZone : MonoBehaviour
     {
         Level.instance.LoseLive();
         Destroy(other.gameObject);
+        
     }
 }
