@@ -58,7 +58,7 @@ var GamePageModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>game</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n\t<ion-grid>\n\t\t<ion-row>\n\t\t\t<ion-col offset=2>\n\t\t\t\t<ion-img src=\"../assets/img/game.PNG\"></ion-img>\n\t\t\t</ion-col>\n\t\t</ion-row>\n\t</ion-grid>\n</ion-content>\n"
+module.exports = "<ion-header>\r\n  <ion-toolbar>\r\n    <ion-title>game</ion-title>\r\n  </ion-toolbar>\r\n</ion-header>\r\n\r\n<ion-content>\r\n\t<ion-grid>\r\n\t\t<ion-row>\r\n\t\t\t<ion-col offset=2>\r\n\t\t\t\t<ion-img src=\"../assets/img/game.PNG\"></ion-img>\r\n\t\t\t</ion-col>\r\n\t\t</ion-row>\r\n\t</ion-grid>\r\n</ion-content>\r\n"
 
 /***/ }),
 
@@ -69,7 +69,7 @@ module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>game</ion-title>
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "ion-img {\n  max-width: 75%;\n  height: 100%; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2FtZS9FOlxcbHBfY3Jvc3NwbGF0Zm9ybV9icmVhay1pdFxcaW9uaWNcXGJyZWFrLWl0L3NyY1xcYXBwXFxnYW1lXFxnYW1lLnBhZ2Uuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLGNBQWM7RUFDZCxZQUFZLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9nYW1lL2dhbWUucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW9uLWltZ3tcclxuXHRtYXgtd2lkdGg6IDc1JTtcclxuXHRoZWlnaHQ6IDEwMCU7XHJcbn0iXX0= */"
+module.exports = "ion-img {\n  max-width: 75%;\n  height: 100%; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2FtZS9FOlxccmVjdXByZXBvXFxscF9jcm9zc3BsYXRmb3JtX2JyZWFrLWl0XFxpb25pY1xcYnJlYWstaXQvc3JjXFxhcHBcXGdhbWVcXGdhbWUucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0MsY0FBYztFQUNkLFlBQVksRUFBQSIsImZpbGUiOiJzcmMvYXBwL2dhbWUvZ2FtZS5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpb24taW1ne1xyXG5cdG1heC13aWR0aDogNzUlO1xyXG5cdGhlaWdodDogMTAwJTtcclxufSJdfQ== */"
 
 /***/ }),
 

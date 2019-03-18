@@ -57,7 +57,7 @@ var HomePageModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<ion-content padding>\n  \n  \n  \n  \n  \n  <ion-grid>\n  <ion-row>\n    <ion-col>\n      <div text-center>\n        <h1>Break It</h1>\n      </div>\n    </ion-col>\n  </ion-row>\n  <ion-row>\n    <ion-col>\n      <div text-center>\n        <ion-button href=\"/game\" color=\"primary\">JOUER</ion-button>\n      </div>\n    </ion-col>\n  </ion-row>\n  <ion-row>\n    <ion-col>\n      <div text-center>\n        <ion-button href=\"/menu-niveaux\" color=\"primary\">NIVEAUX</ion-button>\n      </div>\n    </ion-col>\n  </ion-row>\n  <ion-row>\n    <ion-col>\n      <div text-center>\n        <ion-button href=\"/menu-options\" color=\"primary\">OPTIONS</ion-button>\n      </div>\n    </ion-col>\n  </ion-row>\n  <ion-row>\n    <ion-col>\n      <div text-center>\n       <ion-button color=\"primary\">QUITTER</ion-button>\n      </div>\n    </ion-col>\n  </ion-row>\n</ion-grid>\n</ion-content>\n"
+module.exports = "\r\n<ion-content padding>\r\n  \r\n  \r\n  \r\n  \r\n  \r\n  <ion-grid>\r\n  <ion-row>\r\n    <ion-col>\r\n      <div text-center>\r\n        <h1>Break It</h1>\r\n      </div>\r\n    </ion-col>\r\n  </ion-row>\r\n  <ion-row>\r\n    <ion-col>\r\n      <div text-center>\r\n        <ion-button href=\"/game\" color=\"primary\">JOUER</ion-button>\r\n      </div>\r\n    </ion-col>\r\n  </ion-row>\r\n  <ion-row>\r\n    <ion-col>\r\n      <div text-center>\r\n        <ion-button href=\"/menu-niveaux\" color=\"primary\">NIVEAUX</ion-button>\r\n      </div>\r\n    </ion-col>\r\n  </ion-row>\r\n  <ion-row>\r\n    <ion-col>\r\n      <div text-center>\r\n        <ion-button href=\"/menu-options\" color=\"primary\">OPTIONS</ion-button>\r\n      </div>\r\n    </ion-col>\r\n  </ion-row>\r\n  <ion-row>\r\n    <ion-col>\r\n      <div text-center>\r\n       <ion-button color=\"primary\">QUITTER</ion-button>\r\n      </div>\r\n    </ion-col>\r\n  </ion-row>\r\n</ion-grid>\r\n</ion-content>\r\n"
 
 /***/ }),
 
@@ -68,7 +68,7 @@ module.exports = "\n<ion-content padding>\n  \n  \n  \n  \n  \n  <ion-grid>\n  <
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "ion-button {\n  width: 200px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9FOlxcbHBfY3Jvc3NwbGF0Zm9ybV9icmVhay1pdFxcaW9uaWNcXGJyZWFrLWl0L3NyY1xcYXBwXFxob21lXFxob21lLnBhZ2Uuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLFlBQVksRUFBQSIsImZpbGUiOiJzcmMvYXBwL2hvbWUvaG9tZS5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpb24tYnV0dG9uIHtcblx0d2lkdGg6IDIwMHB4O1xufVxuIl19 */"
+module.exports = "ion-button {\n  width: 200px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9FOlxccmVjdXByZXBvXFxscF9jcm9zc3BsYXRmb3JtX2JyZWFrLWl0XFxpb25pY1xcYnJlYWstaXQvc3JjXFxhcHBcXGhvbWVcXGhvbWUucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0MsWUFBWSxFQUFBIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9ob21lLnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImlvbi1idXR0b24ge1xyXG5cdHdpZHRoOiAyMDBweDtcclxufVxyXG4iXX0= */"
 
 /***/ }),
 
