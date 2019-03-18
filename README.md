@@ -28,6 +28,8 @@ La version navigateur est consultable depuis n'importe quel naviguateur récent 
 > Le menu pause s'affiche si vous appuyez sur echap depuis la maquette de jeu.
 ## Technologies utilisées
 On utilise Unity avec le langage CSharp car Unity est un outil pour créer des jeux vidéos et qui permet de faire des applications disponible sur Android et Apple. L'avantage par rapport aux technologies natives et qu'on a pas de surcouche, on a accès directement aux fonctionnalités grâce au langage CSharp. De plus, les technologies hybrides ne serait pas très utiles car il y a peu de menu.
+
+Voir le Wiki [ICI](https://github.com/AlexiGhost/lp_crossplatform_break-it/wiki)
 ## Organisation du projet
 
 ### Politique des branches
