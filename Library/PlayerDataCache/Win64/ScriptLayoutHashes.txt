@@ -1,8 +1,7 @@
 Win64
 PlayerPath?
-D:/Cours/GL/lp_gl_break-it/Temp/UnityTempFile-18c3be739a061ec4ba2b9a4aab1e9a77/PlayerWithTests/PlayerWithTests.exe
+D:/Cours/GL/lp_gl_break-it/build/standalone/BreakIt.exe
 SceneListBegin?
-Assets/InitTestScene636855700975637002.unity
 Assets/Scenes/MainMenu.unity
 Assets/Scenes/OptionMenu.unity
 Assets/Scenes/LevelMenu.unity
